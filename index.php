@@ -34,7 +34,7 @@ try {
 		);
 
     // Configurar el mensaje
-    $mail->setFrom('greentreegreen7@gmail.com','GT'); // Cambiar por tu correo electrónico y tu nombre
+    $mail->setFrom('stivensasa12@gmail.com','GT'); // Cambiar por tu correo electrónico y tu nombre
     $mail->addAddress($correo, $nombre); // Cambiar por el correo electrónico y el nombre del destinatario
     $mail->Subject = $asunto;
     $mail->Body = $mensaje;
